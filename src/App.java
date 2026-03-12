@@ -1,16 +1,16 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        // java es fuertemente TIPADO
-        System.out.println("Hello, IES 6 INFORMATICA!");
+    // java es fuertemente TIPADO
+  
 
-        // definicion e inicializacio
-        int numeroA = 10;
-        int numeroB = 5; 
+    String nombreApellido = "jose Javier Almendras";
+    int edad = 44;
+    double estatura = 1.67;
 
-        numeroA = 30;
+     System.out.println("Mi nombre es :" + nombreApellido);
+     System.out.println("Mi edad es :" + edad);
+     System.out.println("Mi estatura es :" + estatura);
 
-        
-    
-        System.out.println("la SUMA de los numeros es: " + (numeroA + numeroB));
+
     }
 }
