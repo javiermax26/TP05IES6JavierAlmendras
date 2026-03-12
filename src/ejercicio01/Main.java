@@ -16,7 +16,7 @@ public class Main {
 
     String mensaje01 = "las variables son: ";
     String mensaje02 = " que es un numero entero: ";
-    int longitudDeLaCadena = mensaje01.length();
+    double longitudDeLaCadena = mensaje01.length();
 
     System.out.println(mensaje01+numeroA+mensaje02+" y el tamaño del mensaje es:"+longitudDeLaCadena);
     }
